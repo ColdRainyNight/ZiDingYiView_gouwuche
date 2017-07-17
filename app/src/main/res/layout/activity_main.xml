@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zidingyiview_gouwuche.AddDecView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:addText="减"
+        app:decText="加"
+        app:max="20"
+        app:textBackGround="#00ff00"></com.zidingyiview_gouwuche.AddDecView>
+</LinearLayout>
